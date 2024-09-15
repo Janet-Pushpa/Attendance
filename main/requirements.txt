@@ -1,0 +1,40 @@
+# Core dependencies
+fastapi
+pydantic
+motor
+numpy
+passlib
+python-jose
+uvicorn
+streamlit
+requests
+pandas
+Pillow
+matplotlib
+
+# OpenCV - if installation fails, try: pip install opencv-python-headless
+opencv-python
+
+# Face recognition dependencies
+# Note: dlib and face_recognition may require manual installation
+# See the installation instructions below
+
+# Other dependencies can be added here as needed
+
+# Installation instructions for dlib and face_recognition:
+# 1. Ensure you have CMake installed: https://cmake.org/download/
+# 2. Install dlib: pip install dlib
+# 3. Install face_recognition: pip install face_recognition
+#
+# If you encounter issues, you may need to build dlib from source:
+# git clone https://github.com/davisking/dlib.git
+# cd dlib
+# mkdir build; cd build; cmake ..; cmake --build .
+# cd ..
+# python setup.py install
+#
+# After successfully installing dlib, install face_recognition:
+# pip install face_recognition
+#
+# For more detailed instructions, visit:
+# https://github.com/ageitgey/face_recognition/blob/master/README.md
